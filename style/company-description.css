@@ -1,0 +1,34 @@
+.company-description {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.separator {
+    margin: 8rem auto 2rem auto;
+    width: 60%;
+}
+
+.company-description-header {
+    font-size: 2.7rem;
+}
+
+.company-description-elements {
+    margin: 3.5rem auto 2rem auto;
+}
+
+.icon {
+    width: 80px;
+}
+
+.element-header {
+    margin: 1.5rem auto 1rem auto;
+
+    font-size: 1.3rem;
+}
+
+.element-description {
+    color:  var(--dark-greysh-violet);
+
+    font-size: .9rem;
+    line-height: 1.5rem;
+}

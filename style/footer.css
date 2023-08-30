@@ -1,0 +1,72 @@
+@import url(./style.css);
+
+.footer {
+    position: relative;
+    padding: 4rem 2rem;
+    overflow: hidden;
+
+    text-align: center;
+
+    background-color: var(--very-light-gray);
+}
+
+.foot-bg-pat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 25rem;
+
+    transform: translateY(-30px);
+}
+
+.social > .logo {
+    position: relative;
+    width: 120px;
+
+    margin: auto;
+}
+
+.social-icons {
+    position: relative;
+    z-index: 2;
+
+    width: 60%;
+    margin: 1.7rem auto;
+}
+
+.icon-social {
+    width: 18px;
+    margin: 0 5px;
+}
+
+.foot-sep {
+    border-color: var(--very-light-gray);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin: 2rem auto;
+}
+
+.menu-header {
+    color: var(--dark-greysh-violet);
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.links-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: .5rem;
+}
+
+.links {
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+    font-size: .7rem;
+}

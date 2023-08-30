@@ -1,0 +1,71 @@
+@import url(./style.css);
+
+.intro {
+    padding: 0;
+    
+    background: var(--bg-primary);
+
+    color: white;
+}
+
+.intro-img {
+    line-height: 0;
+}
+
+.intro-description {
+    position: relative;
+
+    padding: 5rem 2rem;
+
+    text-align: center;
+}
+
+.intro-description h1 {
+    font-size: 2.7rem;
+}
+
+.intro-description p {
+    margin: 1rem auto 2rem auto;
+
+    font-size: .9rem;
+
+    line-height: 1.4rem;
+    word-spacing: .2rem;
+}
+
+.intro-description > :is(h1, p) {
+    position: relative;
+    z-index: 2;
+}
+
+.view-plans {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+
+    border: 1px solid white;
+    padding: .5rem 1.5rem;
+    
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1rem;
+}
+
+.bg-pat-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 11rem;
+    z-index: 0;
+}
+
+.bg-pat-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 7.5rem;
+    z-index: 0;
+
+    transform: translateY(50%);
+}
