@@ -2,6 +2,7 @@
 
 .intro {
     padding: 0;
+    max-height: 43rem;
     
     background: var(--bg-primary);
 
@@ -31,6 +32,8 @@
 
     line-height: 1.4rem;
     word-spacing: .2rem;
+
+    color: var(--dark-greysh-violet);
 }
 
 .intro-description > :is(h1, p) {

@@ -1,9 +1,13 @@
 .find-more {
     position: relative;
+
     background-color: var(--bg-primary);
+    overflow: hidden;
+    
     margin: 7rem 2rem;
     padding: 5rem 2.5rem;
-    min-height: 350px;
+    height: 350px;
+    max-width: 70%;
     
     color: white;
     text-align: center;
@@ -19,6 +23,7 @@
 }
 
 .how-we-work {
+    position: relative;
     display: inline-block;
 
     margin: 2rem auto auto;
@@ -29,6 +34,8 @@
     text-transform: uppercase;
     font-size: .8rem;
     letter-spacing: .1rem;
+
+    z-index: 3;
 }
 
 .find-more-bg-pattern {

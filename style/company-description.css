@@ -6,6 +6,8 @@
 .separator {
     margin: 8rem auto 2rem auto;
     width: 60%;
+
+    border: .5px solid var(--greysh-blue);
 }
 
 .company-description-header {
