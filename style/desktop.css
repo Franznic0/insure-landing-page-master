@@ -71,11 +71,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         
-        padding: 5rem 6rem;
+        padding: 7rem 6rem;
     }
 
     .intro-img {
         grid-column: 2/3;
+        width: 90%;
     }
 
     .intro-description {
@@ -100,9 +101,10 @@
     }
 
     .intro-description h1 {
-        font-size: 5.5rem;
-
+        font-size: clamp(2rem, 6vw, 4rem);
         line-height: 1em;
+
+        /* width: 95%; */
     }
 
     .intro-description p {
@@ -139,7 +141,7 @@
 
     .company-description {
         text-align: left;
-        padding: 5rem 6rem;
+        padding: 7rem 6rem;
     }
 
     .separator {
