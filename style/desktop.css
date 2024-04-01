@@ -70,13 +70,23 @@
     .intro {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 3rem;
+        max-height: 43rem;
         
         padding: 7rem 6rem;
     }
 
     .intro-img {
         grid-column: 2/3;
-        width: 90%;
+    }
+    picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img>picture>* {
+        display: block;
+        width: min(35rem, 100%);
     }
 
     .intro-description {
@@ -123,7 +133,7 @@
     }
 
     .bg-pat-left {
-        left: -6rem;
+        left: -10rem;
         top: 27rem;
     }
 

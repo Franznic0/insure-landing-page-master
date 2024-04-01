@@ -3,7 +3,7 @@
 .intro {
     position: relative;
     padding: 0;
-    max-height: 43rem;
+    max-height: auto;
     
     background: var(--bg-primary);
 
