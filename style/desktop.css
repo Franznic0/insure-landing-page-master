@@ -78,14 +78,14 @@
 
     .intro-img {
         grid-column: 2/3;
+        overflow: visible;
     }
-    picture {
+    .intro-img>picture  {
         display: flex;
         justify-content: center;
     }
 
     .intro-img>picture>* {
-        display: block;
         width: min(35rem, 100%);
     }
 
@@ -133,16 +133,18 @@
     }
 
     .bg-pat-left {
-        left: -10rem;
-        top: 27rem;
+        top: 30rem;
+        left: 0;
+        /* transform: translate(-4rem, 0); */
+
+        width: 12rem;
     }
 
     .bg-pat-right {
-        top: 0;
-        right: 0;
+        margin: 0 0 auto auto;
+        transform: translateY(-13rem);
 
-        width: 30rem;
-        height: 41rem;
+        width: 25rem;
     }
 
     /* company-description */
