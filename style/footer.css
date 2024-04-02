@@ -55,6 +55,7 @@
     color: var(--dark-greysh-violet);
     text-transform: uppercase;
     font-size: .7rem;
+    font-weight: 400;
 }
 
 .links-wrap {
